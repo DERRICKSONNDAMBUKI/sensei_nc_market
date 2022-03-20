@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./createVendor.css";
 
 export default function CreateVenderOwner() {
@@ -47,7 +48,11 @@ export default function CreateVenderOwner() {
                 <option value="no">No</option>
             </select>
         </div>
-        <button className="CreateVendorButton">Create</button>
+        <button className="CreateVendorButton">
+          <Link to={'/vendorshop'} className={'link'}>
+            Create Vendor
+          </Link>
+          </button>
       </form>
     </div>
   );

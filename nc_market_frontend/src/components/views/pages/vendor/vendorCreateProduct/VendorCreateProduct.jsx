@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './vendorCreateProduct.css'
 
 export default function VendorCreateProduct() {
@@ -24,7 +25,11 @@ export default function VendorCreateProduct() {
                     <option value="no">No</option>
                 </select>
             </div>
-            <button className="addProductButton">Create</button>
+            <button className="addProductButton">
+                <Link to={'/vendorshop'} className={'link'}>
+                  Create Product  
+                </Link>
+                </button>
         </form>
     </div>
   )

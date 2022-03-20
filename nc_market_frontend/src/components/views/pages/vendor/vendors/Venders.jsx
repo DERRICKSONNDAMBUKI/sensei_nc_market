@@ -10,7 +10,7 @@ export default function Venders() {
       <p>list of my vendors shops</p>
       <div className="createNewVendor">
         <Link to={"/createvendorowner"}>
-          <button className="vendorOwnerAddButton">Create Product</button>
+          <button className="vendorOwnerAddButton">Create Vendor</button>
         </Link>
       </div>
     </div>
