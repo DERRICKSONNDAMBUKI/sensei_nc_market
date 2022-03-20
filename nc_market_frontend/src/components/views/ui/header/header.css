@@ -1,0 +1,97 @@
+.header {
+  background-color: rgb(255, 80, 0);
+  text-align: center;
+  font-size: 40px;
+  width: 100%;
+}
+
+.navBar {
+  height: 60px;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  background-color: rgb(255, 100, 50);
+}
+.navWrapper {
+  padding: 10px 3px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navLeft {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+.navLanguage {
+  font-size: 14px;
+  cursor: pointer;
+}
+.navSearchContainer {
+  border: none;
+  display: flex;
+  align-items: center;
+  margin-left: 5px;
+  padding: 1px;
+  border-radius: 5px;
+}
+.navSearchContainer > input {
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+}
+.navSearch {
+  cursor: pointer;
+  color: gray;
+  font-size: 15px;
+  padding: 5px;
+}
+.navCenter {
+  flex: 1;
+  text-align: center;
+}
+.navLinksList {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  
+}
+.navLinksItem {
+  width: 20%;
+  font-size: 15px;
+  padding: 5px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.navRight {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.navMenuItem {
+  font-size: 14px;
+  cursor: pointer;
+  margin-left: 25px;
+}
+.navUserAvatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.navCartIcon {
+  height: 15px;
+  width: 15px;
+  position: relative;
+  bottom: -8px;
+  right: -10px;
+  background-color: red;
+  color: white;
+  border-radius: 58%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+}

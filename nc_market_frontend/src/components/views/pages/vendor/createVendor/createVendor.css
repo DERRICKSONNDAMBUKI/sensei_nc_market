@@ -1,0 +1,49 @@
+.CreateVendor {
+  flex: 4;
+}
+.CreateVendorForm {
+  display: flex;
+  flex-wrap: wrap;
+}
+.CreateVendorItem {
+  display: flex;
+  width: 400px;
+  margin-top: 10px;
+  flex-direction: column;
+  margin-right: 20px;
+}
+.CreateVendorItem > label {
+  margin-bottom: 10px;
+  font: 10px;
+  font-weight: 600;
+  color: rgb(151, 151, 151);
+}
+.CreateVendorItem > input {
+  height: 20px;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+.CreateVendorGender > input {
+  margin-top: 15px;
+}
+.CreateVendorGender > label {
+  margin: 10px;
+  font-size: 18px;
+  color: #555;
+}
+.CreateVendorSelect {
+  height: 40px;
+  border-radius: 5px;
+}
+.CreateVendorButton{
+    width: 200px;
+    border: none;
+    background-color:#ff5000;
+    color: white;
+    padding: 7px 10px;
+    border-radius: 10px;
+    font-weight: 600;
+    margin-top: 30px;
+    cursor: pointer;
+}

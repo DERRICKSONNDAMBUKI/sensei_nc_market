@@ -1,0 +1,132 @@
+.vendorOwner {
+  flex: 4;
+  padding: 20px;
+}
+.vendorOwnerTitleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.vendorOwnerCreateProductButton{
+  width: 150px;
+  border: none;
+  padding: 5px;
+  background-color: #ff5000;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+}
+.vendorOwnerContainer {
+  display: flex;
+  margin-right: 20px;
+  flex-wrap: wrap;
+}
+.vendorOwnerShow {
+  flex: 1;
+  padding: 20px;
+  -webkit-box-shadow: 0px 0px 11px -1px #000000;
+  box-shadow: 0px 0px 11px -1px #928d8d;
+}
+.vendorOwnerUpdate {
+  flex: 2;
+  padding: 20px;
+  -webkit-box-shadow: 0px 0px 11px -1px #000000;
+  box-shadow: 0px 0px 11px -1px #928d8d;
+  margin-left: 20px;
+}
+.vendorOwnerShowTop{
+    display: flex;
+    align-items: center;
+}
+
+.vendorOwnerShowImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.vendorOwnerShowTopTitle{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.vendorOwnerShowvendorOwnername{
+    font-weight: 600;
+}
+.vendorOwnerShowvendorOwnerTitle{
+    font-weight: 300;
+}
+.vendorOwnerShowBottom{
+    margin-top: 20px;
+}
+.vendorOwnerShowTitle{
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(168, 168, 168);
+}
+.vendorOwnerShowInfo{
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+    color: #444;
+}
+.vendorOwnerShowIcon{
+    font-size: 16px !important;
+}
+.vendorOwnerShowInfoTitle{
+    margin-left: 10px;
+}
+.vendorOwnerUpdateTitle{
+    font-size: 24px;
+    font-weight: 600;
+}
+.vendorOwnerUpdateForm{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.vendorOwnerUpdateItem{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    
+}
+.vendorOwnerUpdateItem>label{
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+.vendorOwnerUpdateInput{
+    border: none;
+    width: 250px;
+    height: 30px;
+    border-bottom: 1px solid gray;
+}
+.vendorOwnerUpdateRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.vendorOwnerUpdateUpload{
+    display: flex;
+    align-items: center;
+}
+.vendorOwnerUpdateImg{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+.vendorOwnerUpdateIcon{
+    cursor: pointer;
+}
+
+.vendorOwnerUpdateButton{
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    background-color: darkblue;
+    color: white;
+    font-weight: 600;
+}

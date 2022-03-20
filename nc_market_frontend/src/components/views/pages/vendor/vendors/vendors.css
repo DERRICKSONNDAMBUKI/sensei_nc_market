@@ -1,0 +1,9 @@
+.vendorOwnerAddButton {
+    width: 150px;
+    border: none;
+    padding: 5px;
+    background-color: #ff5000;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+  }
